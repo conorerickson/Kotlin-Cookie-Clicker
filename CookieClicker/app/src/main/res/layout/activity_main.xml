@@ -15,10 +15,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.079"
-        android:onClick="incrementScore"
         tools:layout_editor_absoluteX="0dp"
-        tools:ignore="MissingConstraints"
-        android:contentDescription="@string/cookieDescription" />
+        android:contentDescription="@string/cookieDescription"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/tvScore"
@@ -33,7 +32,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
         app:layout_constraintVertical_bias="0.743" />
 
     <Button
@@ -48,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvScore"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintVertical_bias="0.12" />
 
     <TextView
         android:id="@+id/tvAutoClickers"
@@ -56,9 +54,22 @@
         android:layout_height="wrap_content"
         android:text="@string/autoClicker"
         android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnBuy"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.336" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvAutoClickers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuy" />
 </androidx.constraintlayout.widget.ConstraintLayout>

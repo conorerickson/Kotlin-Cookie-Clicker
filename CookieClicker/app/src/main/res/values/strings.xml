@@ -2,6 +2,7 @@
     <string name="app_name">Cookie-Clicker</string>
     <string name="buy">Buy Auto-Clicker</string>
     <string name="autoClicker">You have 0 Auto-Clickers</string>
-    <string name="score">You have 0 Cookies</string>
+    <string name="score">You have 0 Cookies!</string>
     <string name="cookieDescription">Cookie Image</string>
+    <string name="price">An Auto-Clicker costs 10 Cookies</string>
 </resources>
